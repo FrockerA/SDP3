@@ -1,6 +1,6 @@
 # SDP3
 
-Subsystems
+# Subsystems
 1. ProductCatalog
 The ProductCatalog subsystem is responsible for managing the products available for purchase. It includes a collection of products that can be searched by product ID.
 
@@ -39,7 +39,7 @@ shipOrder(String productId, String address): Processes the shipment of a product
 Purpose:
 This subsystem is responsible for determining shipping costs and handling the logistics of delivering the purchased items to the customer's address.
 
-#ShoppingFacade Class
+# ShoppingFacade Class
 
 The ShoppingFacade class serves as the unified interface that simplifies the interactions with the various subsystems. By hiding the details of how the order is processed, the ShoppingFacade provides a straightforward interface for clients to place orders with minimal code.
 
@@ -53,7 +53,7 @@ Reduces the stock in the inventory.
 Arranges for shipping.
 The method returns a message indicating the success or failure of the order. If any step fails, a corresponding error message is provided.
 
-#Role of the Facade Pattern
+# Role of the Facade Pattern
 
 The Facade Pattern simplifies the interaction between the client and the complex system of subsystems by providing a unified interface. Here’s how it benefits the Online Shopping System:
 
